@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou só aumente e diminua a aba do eu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto Flexível">
+    </picture>
+    <h1>Mídia em audio</h1>
+    <p>Para reproduzir um audio temos duas formas</p>
+    <audio src="midia/Raga-Of-Thousand-Suns- Hanu Dixit.mp3" controls autoplay></audio>
+
+    <audio controls autoplay >
+        <source 
+        src="midia/Raga-Of-Thousand-Suns- Hanu Dixit.mp3" type="audio/mpeg" >
+        
+    </audio>
+<h1>Segundo exemplo
+
+</h1>
+    <audio controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        
+    
+    </audio>
+    <p>infelizmente seu navegador não conseguiu reproduzir o aúdio, <a href="midia/guanacast-33.mp3"> Clique aqui para baixor o arquivo MP3</a></p>
+</body>
+</html>
