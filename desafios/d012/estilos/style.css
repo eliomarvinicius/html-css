@@ -12,3 +12,91 @@
     padding: 0px;
     margin: 0px;
 }
+
+header{
+    
+    background-color: black;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    color: white
+    
+}
+
+header  h1{
+    font-size: 7vw;
+    padding-top: 50px;
+    
+}
+
+header h1::first-letter{
+    font-size: 10vw;
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+header a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonte-padrao);
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+}
+
+section.imagem > p{
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.511);
+    text-shadow: 2px 1px 1px black;
+    padding: 5px;
+    
+}
+
+main #img01{
+    display: block;
+    background: black url('../imagens/background001.jpg') no-repeat fixed;
+    background-size: cover;
+    box-shadow: 1px 1px 4px 1px  black;
+}
+
+main #img02{
+    background: transparent url('../imagens/background002.jpg') no-repeat fixed;
+    background-size: cover;
+    box-shadow: 1px 1px 4px 1px  black;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    
+    background-color: black;
+    padding: 10px 0px;
+}
+
+footer a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
